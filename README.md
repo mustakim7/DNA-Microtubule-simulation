@@ -1,10 +1,9 @@
 # DNA–Microtubule Network Simulation
 
+Flexible spring–bead polymer model ("DNA") in a 2D square box with periodic boundary conditions (PBC). Bonds use FENE springs; non‑bonded interactions switch from a Gaussian soft volume repulsion during early iterations to Lennard–Jones (LJ) afterwards. The terminal bead of each polymer experiences active self‑propulsion with an anisotropic friction tensor. Thermal noise uses Gaussian random numbers from Intel MKL VSL. Parallelism is via OpenMP.
+
 This repository contains the simulation code used for the study:
 > "Dynamic assembly of complex hierarchical DNA polymer networks by biomolecular active agents"
-
-The code implements a coarse-grained polymer model of DNA–microtubule systems using FENE and Lennard–Jones potentials,
-with self-propulsion applied to mimic gliding motion of microtubules. The system is simulated in 2D with periodic boundary conditions.
 
 ----
 ## Features
