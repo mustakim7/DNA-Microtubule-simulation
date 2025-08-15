@@ -4,11 +4,12 @@ Flexible spring–bead polymer model ("DNA") in a 2D square box with periodic bo
 
 This repository contains the simulation code used for the study:
 > "Dynamic assembly of complex hierarchical DNA polymer networks by biomolecular active agents"
+> and partially based on the simulation done by Rakesh Das, et.al. (2022) "How enzymatic activity is involved in chromatin organization, eLife 11:e79901."
 
 ----
 ## Features
 - **Polymer model**: FENE(Finite Extensible Non-linear Elastic) + Lennard–Jones potentials
-- **Self-propulsion**: Applied to end monomer with defined polarity
+- **Self-propulsion**: Applied to the end monomer with defined polarity
 - **Periodic boundary conditions** in 2D
 - **Example configuration** provided for test runs
 
