@@ -32,4 +32,4 @@ Intel MKL (tested with mkl/2022.1.0) — VSL headers and libraries are required 
 Pthreads, libm, libdl
 Module environment (optional): Example uses module load mkl/2022.1.0.
 #All input files are in input-files.zip, and are in free format; change the iteration value for shorter runs. Counts must be consistent.
-#An example of 4 polymers, consisting of 64 monomers each, is attached in the input-pos.inp for test runs.
+#An example of 8 polymers, consisting of 64 monomers each, is attached in the input-pos.inp for test runs.
